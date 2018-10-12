@@ -10,8 +10,15 @@ body {
 
 img {
   border: 2px solid	#F0F0F0;
-  float: right;
-  display: inline;
+  display: block;
+  text-align: center;
+  width: 150px;
+}
+
+.about {
+  width: 700px;
+  text-align: center;
+  float: none;
 }
 
 h1 {
