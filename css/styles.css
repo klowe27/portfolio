@@ -12,7 +12,7 @@ body {
   text-align: center;
 }
 
-img {
+.headshot {
   border: 2px solid	#D3D3D3;
   display: inline-block;
   width: 150px;
@@ -21,10 +21,6 @@ img {
 div.about p {
   display: inline-block;
   width: 700px;
-}
-
-.sample {
-  margin: 10px;
 }
 
 h1 {
@@ -46,6 +42,11 @@ h2 {
   text-align: center;
   margin-bottom: 40px;
   color: #26466D;
+}
+
+h3 {
+  font-weight: 400;
+  margin-top: 30px;
 }
 
 .space-above {
