@@ -8,7 +8,7 @@ body {
   margin-top: 0px;
 }
 
-.about {
+.center {
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ body {
   width: 150px;
 }
 
-div.about p {
+div.center p {
   display: inline-block;
   width: 700px;
 }
@@ -45,7 +45,7 @@ h2 {
 }
 
 h3 {
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 30px;
 }
 
