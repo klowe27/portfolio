@@ -8,17 +8,23 @@ body {
   margin-top: 0px;
 }
 
-img {
-  border: 2px solid	#F0F0F0;
-  display: block;
+.about {
   text-align: center;
+}
+
+img {
+  border: 2px solid	#D3D3D3;
+  display: inline-block;
   width: 150px;
 }
 
-.about {
+div.about p {
+  display: inline-block;
   width: 700px;
-  text-align: center;
-  float: none;
+}
+
+.sample {
+  margin: 10px;
 }
 
 h1 {
@@ -28,7 +34,7 @@ h1 {
   text-align: center;
   height: 150px;
   font-size: 60px;
-  line-height: 2.3em;
+  line-height: 2.5em;
   margin-top: 0px;
   margin-bottom: 0px;
   text-transform: uppercase;
@@ -37,4 +43,15 @@ h1 {
 h2 {
   font-weight:100;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #26466D;
+}
+
+.space-above {
+  margin-top: 90px;
+}
+
+.sample {
+  margin 5px;
 }
