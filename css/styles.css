@@ -59,3 +59,29 @@ h3 {
   background-color: #F2F2F2;
   padding-bottom: 40px;
 }
+
+@media screen and (max-width: 700px) {
+  div.center p {
+    width: 250px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 5em;
+  }
+  .content {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+  div.center p {
+    width: 400px;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 3em;
+  }
+  .content {
+    margin-bottom: 25px;
+  }
+}
