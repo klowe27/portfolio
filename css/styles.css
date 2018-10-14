@@ -3,6 +3,10 @@ body {
   background-repeat: repeat;
 }
 
+.custom-nav {
+  font-weight: bold;
+}
+
 .container {
   padding: 70px;
   background-color: #fafafa;
