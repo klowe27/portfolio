@@ -10,7 +10,7 @@ This website is a portfolio of my work and includes sample work, my background, 
 
 ## Setup/Installation Requirements
 
-* View website directly here:
+* View website directly here: https://klowe27.github.io/portfolio/
 * To clone this project, in the terminal use command $ git clone https://github.com/klowe27/portfolio
 * After cloning, open index.html in any web browser
 
