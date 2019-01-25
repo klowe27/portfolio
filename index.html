@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Kristin's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <title>Kristin Brewer-Lowe Portfolio</title>
   </head>
   <body>
-
-    <h1 id="home">Kristin Brewer-Lowe</h1>
-    <ul class="nav nav-pills nav-justified custom-nav">
-      <li role="presentation"><a href="#about-me">About Me</a></li>
-      <li role="presentation"><a href="#my-work">My Work</a></li>
-      <li role="presentation"><a href="#background">Background</a></li>
-      <li role="presentation"><a href="#interests">Interests</a></li>
-      <li role="presentation"><a href="#contact">Contact</a></li>
-    </ul>
-
     <div class="container">
+
+      <div class="heading">
+        <h1 id="home">Kristin Brewer-Lowe</h1>
+        <div class="menu">
+          <div><button class="menu-item" onclick="window.location.href = '#about-me';">About Me</button></div>
+          <div><button class="menu-item" onclick="window.location.href = '#my-work';">My Work</button></div>
+          <div><button class="menu-item" onclick="window.location.href = '#background';">Background</button></div>
+          <div><button class="menu-item" onclick="window.location.href = '#interests';">Interests</button></div>
+          <div><button class="menu-item" onclick="window.location.href = '#contact';">Contact</button></div>
+        </div>
+      </div>
 
       <div class="center" id="about-me">
         <img src="img/profile.jpg" class="img-circle headshot">
@@ -27,35 +29,30 @@
       <div class="space-above" id="my-work">
         <h2>My Work</h2>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class ="content">
-            <img src="img/shelter.png" alt="Animal Shelter website." class="img-responsive">
-            <h3>Animal Shelter</h3>
-            <p><strong>Description:</strong> Basic website for an animal shelter to feature animals available for adoption.</p>
-            <p><strong>Languages:</strong> CSS, HTML</p>
-            <a class="btn btn-primary" href="https://github.com/klowe27/animal-shelter" role="button">View</a>
-          </div>
+
+      <div class="content-container">
+        <div class ="content">
+          <img src="img/shelter.png" alt="Animal Shelter website." class="img-responsive">
+          <h3>Animal Shelter</h3>
+          <p><strong>Description:</strong> Basic website for an animal shelter to feature animals available for adoption.</p>
+          <p><strong>Languages:</strong> CSS, HTML</p>
+          <a href="https://github.com/klowe27/animal-shelter"><button class="work-button">View</button></a>
         </div>
 
-        <div class="col-md-4">
-          <div class ="content">
-            <img src="img/private-island.png" alt="Private Island website." class="img-responsive">
-            <h3>Private Island</h3>
-            <p><strong>Description:</strong> Basic website to promote a luxury hotel on a private island.</p>
-            <p><strong>Languages:</strong> CSS, HTML</p>
-            <a class="btn btn-primary" href="https://github.com/klowe27/private-island" role="button">View</a>
-          </div>
+        <div class ="content">
+          <img src="img/private-island.png" alt="Private Island website." class="img-responsive">
+          <h3>Private Island</h3>
+          <p><strong>Description:</strong> Basic website to promote a luxury hotel on a private island.</p>
+          <p><strong>Languages:</strong> CSS, HTML</p>
+          <a href="https://github.com/klowe27/private-island"><button class="work-button">View</button></a>
         </div>
 
-        <div class="col-md-4">
-          <div class ="content">
-            <img src="img/vacation.png" alt="Vacation website." class="img-responsive">
-            <h3>Vacation Wishlist</h3>
-            <p><strong>Description:</strong>Basic website listing dream vacation, including hotel packages available.</p>
-            <p><strong>Languages:</strong> CSS, HTML</p>
-            <a class="btn btn-primary" href="https://github.com/klowe27/vacation" role="button">View</a>
-          </div>
+        <div class ="content">
+          <img src="img/vacation.png" alt="Vacation website." class="img-responsive">
+          <h3>Vacation Wishlist</h3>
+          <p><strong>Description:</strong>Basic website listing dream vacation, including hotel packages available.</p>
+          <p><strong>Languages:</strong> CSS, HTML</p>
+          <a href="https://github.com/klowe27/vacation"><button class="work-button">View</button></a>
         </div>
       </div>
 
@@ -63,99 +60,89 @@
       <div class="space-above center" id="background">
         <h2>Background</h2>
         <h3>Why programming?</h3>
-        <p>My dad worked for HP for his entire career as a software engineer helping design printers. When I was younger, he used to say I had a great engineering mind based on how I approached projects and found creative solutions. My freshman year of college, I was torn between engineering and English, and ended up pursuing English, which led to a career in marketing. But marketing has never felt like a natural fit for my skills, and I've always wondered if programming could be right for me. I spent enough years wondering, and <span class="bg-success">now I'm doing something about it.</span></p>
+        <p>My dad worked for HP for his entire career as a software engineer helping design printers. When I was younger, he used to say I had a great engineering mind based on how I approached projects and found creative solutions. My freshman year of college, I was torn between engineering and English, and ended up pursuing English, which led to a career in marketing. But marketing has never felt like a natural fit for my skills, and I've always wondered if programming could be right for me. I spent enough years wondering, and now I'm doing something about it.</p>
       </div>
 
-      <div class="row space-above">
-        <div class="col-md-4">
-          <div class="content">
-            <img src="img/experience.svg" alt="Briefcase icon.">
-            <h3>Experience</h3>
-            <h4>Product Marketing Manager</h4>
-            <p><em>NWEA, April 2018-August 2018</em></p>
-            <h4>Marketing Manager</h4>
-            <p><em>Open Mesh, September 2016-March 2018</em></p>
-            <h4>Marketing Manager</h4>
-            <p><em>InComm, March 2012-August 2016</em></p>
-          </div>
+      <div class="content-container">
+        <div class="content">
+          <img src="img/experience.svg" alt="Briefcase icon.">
+          <h3>Experience</h3>
+          <h4>Product Marketing Manager</h4>
+          <p>NWEA, 4.2018-8.2018</p>
+          <h4>Marketing Manager</h4>
+          <p>Open Mesh, 9.2016-3.2018</p>
+          <h4>Marketing Manager</h4>
+          <p>InComm Digital Solutions, 3.2012-8.2016</p>
         </div>
 
-        <div class="col-md-4">
-          <div class="content">
-            <img src="img/education.svg" alt="Bookmark icon.">
-            <h3>Education</h3>
-            <h4>MA, English</h4>
-            <p><em>Brigham Young University, 2009-2011</em></p>
-            <h4>BA, English</h4>
-            <p><em>Brigham Young University, 2004-2008</em></p>
-          </div>
+        <div class="content">
+          <img src="img/education.svg" alt="Bookmark icon.">
+          <h3>Education</h3>
+          <h4>Web Development Code School</h4>
+          <p>Epicodus, 2018-2019</p>
+          <h4>MA, English</h4>
+          <p>Brigham Young University, 2009-2011</p>
+          <h4>BA, English</h4>
+          <p>Brigham Young University, 2004-2008</p>
         </div>
 
-        <div class="col-md-4">
-          <div class="content">
-            <img src="img/skills.svg" alt="Clipboard icon.">
-            <h3>Skills</h3>
-            <ul>
-              <li>HTML, CSS, Ruby, Javascript, Git and GitHub</li>
-              <li>InDesign, Photoshop and Illustrator</li>
-              <li>Google Analytics, SEO, Google Adwords, Mailchimp, iMovie and Salesforce</li>
-              <li>Superior communication, writing and design skills</li>
-            </ul>
-          </div>
+        <div class="content">
+          <img src="img/skills.svg" alt="Clipboard icon.">
+          <h3>Skills</h3>
+          <ul>
+            <li>Javascript, React, Angular, Ruby/Rails, jQuery, HTML, CSS, Git, TDD, pair programming</li>
+            <li>InDesign, Photoshop and Illustrator</li>
+            <li>Google Analytics, SEO, Google Adwords, Mailchimp, and Salesforce</li>
+            <li>Superior communication, writing and design skills</li>
+          </ul>
         </div>
       </div>
 
       <div class="space-above" id="interests">
         <h2>Interests</h2>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="content">
-            <img src="img/podcast.svg" alt="Microphone icon.">
-            <h3>Podcasts</h3>
-            <ul>
-              <li>Pod Save America</li>
-              <li>Serial</li>
-              <li>The Daily</li>
-              <li>Reply All</li>
-            </ul>
-          </div>
+      <div class="content-container">
+        <div class="content">
+          <img src="img/podcast.svg" alt="Microphone icon.">
+          <h3>Podcasts</h3>
+          <ul>
+            <li>Pod Save America</li>
+            <li>Serial</li>
+            <li>The Daily</li>
+            <li>Reply All</li>
+          </ul>
         </div>
 
-        <div class="col-md-4">
-          <div class="content">
-            <img src="img/topic.svg" alt="Heart icon." class="icon">
-            <h3>Topics</h3>
-            <ul>
-              <li>Minimalism</li>
-              <li>Design</li>
-              <li>Financial independence</li>
-              <li>Photography</li>
-            </ul>
-          </div>
+        <div class="content">
+          <img src="img/topic.svg" alt="Heart icon." class="icon">
+          <h3>Topics</h3>
+          <ul>
+            <li>Minimalism</li>
+            <li>Design</li>
+            <li>Financial independence</li>
+            <li>Photography</li>
+          </ul>
         </div>
 
-        <div class="col-md-4">
-          <div class="content">
-            <img src="img/travel.svg" alt="Airplane icon.">
-            <h3>Dream Travel</h3>
-            <ol>
-              <li>Iceland</li>
-              <li>Grand Canyon</li>
-              <li>Thailand</li>
-              <li>Ireland</li>
-            </ol>
-          </div>
+        <div class="content">
+          <img src="img/travel.svg" alt="Airplane icon.">
+          <h3>Dream Travel</h3>
+          <ul>
+            <li>Iceland</li>
+            <li>Grand Canyon</li>
+            <li>Thailand</li>
+            <li>Ireland</li>
+          </ul>
         </div>
       </div>
-
       <div class="space-above center" id="contact">
         <h2>Contact</h2>
         <p><strong>Email: </strong><a href="mailto:kristin.lowe1@gmail.com">kristin.lowe1@gmail.com</a></p>
         <p><strong>Phone:</strong> 360.910.2110</p>
       </div>
-
-      <a class="btn btn-primary top" href="#home" role="button">Return to Top</a>
+      <div class="center space-above">
+        <a href="#home"><button class="work-button">Return to Top</button></a>
+      </div>
 
     </div>
   </body>
