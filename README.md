@@ -1,6 +1,6 @@
 # Portfolio
 
-#### Portfolio Exercise for Epicodus, 10.14.2018
+#### Portfolio of Coding Projects, 1.24.2019
 
 #### By Kristin Brewer-Lowe
 
